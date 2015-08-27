@@ -33,11 +33,14 @@ package com.mbientlab.metawear.app;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.os.Bundle;
+import android.util.Log;
 
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 import com.kiwiwearables.kiwilib.Kiwi;
+import com.kiwiwearables.kiwilib.KiwiConfiguration;
 import com.mbientlab.metawear.AsyncOperation;
 import com.mbientlab.metawear.Message;
 import com.mbientlab.metawear.RouteManager;
@@ -47,12 +50,15 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Calendar;
 
+import timber.log.Timber;
+
 /**
  * Created by etsai on 8/19/2015.
  */
 public abstract class ThreeAxisChartFragment extends SensorFragment {
 
-    private Kiwi mKiwiInstance;
+    public abstract void onDataReceived(float[] points);
+
     private final ArrayList<Entry> xAxisData= new ArrayList<>(), yAxisData= new ArrayList<>(), zAxisData= new ArrayList<>();
     private final String dataType, streamKey;
     private final float samplePeriod;
@@ -67,12 +73,13 @@ public abstract class ThreeAxisChartFragment extends SensorFragment {
 
                     LineData data = chart.getData();
 
-                    yAxisData.get(0);
-
                     data.addXValue(String.format("%.2f", sampleCount * samplePeriod));
                     data.addEntry(new Entry(spin.x(), sampleCount), 0);
                     data.addEntry(new Entry(spin.y(), sampleCount), 1);
                     data.addEntry(new Entry(spin.z(), sampleCount), 2);
+
+//                    Timber.d("Accelerometer:" + spin.x());
+//                    Log.d("TAG", "Accelerometer:" + spin.x());
 
                     float accel_x = Float.valueOf(spin.x());
                     float accel_y = Float.valueOf(spin.y());
@@ -80,7 +87,7 @@ public abstract class ThreeAxisChartFragment extends SensorFragment {
 
                     float[] points = new float[] {accel_x, accel_y, accel_z, 0, 0, 0};
 
-                    mKiwiInstance.sendData(points, "MBient");
+                    onDataReceived(points);
 
                     sampleCount++;
                 }

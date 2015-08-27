@@ -52,6 +52,8 @@ import com.kiwiwearables.kiwilib.Motion;
 import com.kiwiwearables.kiwilib.RefreshMotionCallback;
 import com.kiwiwearables.kiwilib.SensorUnits;
 
+import timber.log.Timber;
+
 /**
  * Created by etsai on 8/19/2015.
  */
@@ -62,7 +64,6 @@ public class AccelerometerFragment extends ThreeAxisChartFragment {
     private Accelerometer accelModule= null;
 
     private Kiwi mKiwiInstance;
-    private Context con;
 
     public AccelerometerFragment() {
         super("accel", "Acceleration (g) along XYZ axes vs. Time",
@@ -75,8 +76,7 @@ public class AccelerometerFragment extends ThreeAxisChartFragment {
     }
 
     private void setupKiwi() {
-        mKiwiInstance = Kiwi.with(con, new KiwiConfiguration.Builder().useStagingServer().useCustomAlgorithm().build());
-//        mKiwiInstance = Kiwi.with(this, new KiwiConfiguration.Builder().useStagingServer().build());
+        mKiwiInstance = Kiwi.with(getActivity(), new KiwiConfiguration.Builder().useStagingServer().build());
 
         EndUser user = new Builder("mbientlab@kiwi.ai").build();
 
@@ -97,6 +97,11 @@ public class AccelerometerFragment extends ThreeAxisChartFragment {
     }
 
     @Override
+    public void onDataReceived(float[] points) {
+        mKiwiInstance.sendData(points, "MBient");
+    }
+
+    @Override
     protected void setup() {
 
         setupKiwi();
@@ -105,6 +110,7 @@ public class AccelerometerFragment extends ThreeAxisChartFragment {
         accelModule.setAxisSamplingRange(ACC_RANGE);
 
         AsyncOperation<RouteManager> routeManagerResult= accelModule.routeData().fromAxes().stream(STREAM_KEY).commit();
+
         routeManagerResult.onComplete(dataStreamManager);
         routeManagerResult.onComplete(new AsyncOperation.CompletionHandler<RouteManager>() {
             @Override

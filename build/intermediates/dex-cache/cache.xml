@@ -2,11 +2,53 @@
 <items version="2" >
 
     <item
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-ade76b5c6adc121f18bbff4f53754cada8c5901e.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.jonathanfinerty.once/once/0.3.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41cb4325ba5a607488fb2862409359b9edddddaf">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-29762fa9d3086b7b38f348bf4a7fdc2bb8c304f7.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-3be87d5190758330a5811d7104d5cedd6ae2979b.jar" />
+    </item>
+    <item
         jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
         <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/commons-cli-1.2-99a1f377e05277c6b4e2a29b4b96212c51b99070.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/disklrucache-2.0.2-3c938ad85fd800c227c8dd756fc05705691ecc19.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1-153a08f54cc4827eb839fddd3cf82e8c05190dd2.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.kiwiwearables/kiwilib-phone/0.4.2-CALIBRATION-SNAPSHOT/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d5e6611767b08c7653b9e9855bf52920d0ae609">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-3844a7a3111c74c37634ec179ae2a7b941f92ec8.jar" />
     </item>
     <item
         jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.mbientlab/bletoolbox/0.1.0/jars/classes.jar"
@@ -23,95 +65,11 @@
         <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/timber-3.1.0-88dfb42ca916c0e796487dd72ce784810eaaebcf.jar" />
     </item>
     <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-ade76b5c6adc121f18bbff4f53754cada8c5901e.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.jakewharton/disklrucache/2.0.2/93b399470e72c0bc8cb52379943b63c9aa586cd8/disklrucache-2.0.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="93b399470e72c0bc8cb52379943b63c9aa586cd8">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/disklrucache-2.0.2-3c938ad85fd800c227c8dd756fc05705691ecc19.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.jonathanfinerty.once/once/0.3.2/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="41cb4325ba5a607488fb2862409359b9edddddaf">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-29762fa9d3086b7b38f348bf4a7fdc2bb8c304f7.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.kiwiwearables/kiwilib-phone/0.4.2-CALIBRATION-SNAPSHOT/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5d5e6611767b08c7653b9e9855bf52920d0ae609">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-3844a7a3111c74c37634ec179ae2a7b941f92ec8.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/jsr305-2.0.1-153a08f54cc4827eb839fddd3cf82e8c05190dd2.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a681c044244d9fc375198588297a39ba78028423">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-275f9c580c2a00c731246d60219c3e8124fca1a3.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.0/f1e24ac977505d1fdcabadaa5be1f41dc11c4286/butterknife-7.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f1e24ac977505d1fdcabadaa5be1f41dc11c4286">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/butterknife-7.0.0-431e9ba0826e12da408c8a69cd95fbd56b0d813e.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.1.1/ab1142c5adfa474e7494cba19fd9fc6e73207960/stetho-1.1.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ab1142c5adfa474e7494cba19fd9fc6e73207960">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/stetho-1.1.1-341aaceab9b34c6724c6fc676d7b752c387af794.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-3be87d5190758330a5811d7104d5cedd6ae2979b.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.mbientlab/bletoolbox/0.1.0/jars/libs/nrf-logger-v1.2.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a4e1cb258512131dd334d7bc1c09e38ad66c2c0c">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/nrf-logger-v1.2-72558291c68d3fd3abd970dbf7a3ae00b42df8b8.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-aee475bd91ff3770b829d53c0ee8cca35e3708d3.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.3/3fce86548feba9dd220128fa651498c51d099cd8/MPAndroidChart-v2.1.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3fce86548feba9dd220128fa651498c51d099cd8">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.3-f47f1fd786c09cdf31141819aa696f1846190ee9.jar" />
-    </item>
-    <item
-        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/gson-2.3.1-6ac2f521347450227909df461861e58168c0de50.jar" />
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-128c843c9ee00629ec9c8986c81a05ea7f6361e2.jar" />
     </item>
     <item
         jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.mbientlab/metawear/2.0.12/jars/classes.jar"
@@ -121,11 +79,53 @@
         <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/classes-92cc7565041d2306b4abdcc3eb8d921543d6419a.jar" />
     </item>
     <item
-        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.0/f1e24ac977505d1fdcabadaa5be1f41dc11c4286/butterknife-7.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-128c843c9ee00629ec9c8986c81a05ea7f6361e2.jar" />
+        sha1="f1e24ac977505d1fdcabadaa5be1f41dc11c4286">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/butterknife-7.0.0-431e9ba0826e12da408c8a69cd95fbd56b0d813e.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/gson-2.3.1-6ac2f521347450227909df461861e58168c0de50.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-275f9c580c2a00c731246d60219c3e8124fca1a3.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.3/3fce86548feba9dd220128fa651498c51d099cd8/MPAndroidChart-v2.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3fce86548feba9dd220128fa651498c51d099cd8">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.3-f47f1fd786c09cdf31141819aa696f1846190ee9.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-aee475bd91ff3770b829d53c0ee8cca35e3708d3.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/.gradle/caches/modules-2/files-2.1/com.facebook.stetho/stetho/1.1.1/ab1142c5adfa474e7494cba19fd9fc6e73207960/stetho-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab1142c5adfa474e7494cba19fd9fc6e73207960">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/stetho-1.1.1-341aaceab9b34c6724c6fc676d7b752c387af794.jar" />
+    </item>
+    <item
+        jar="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/exploded-aar/com.mbientlab/bletoolbox/0.1.0/jars/libs/nrf-logger-v1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4e1cb258512131dd334d7bc1c09e38ad66c2c0c">
+        <dex dex="/Users/chibuk/dev/kiwi-mbientlabs/app/build/intermediates/pre-dexed/debug/nrf-logger-v1.2-72558291c68d3fd3abd970dbf7a3ae00b42df8b8.jar" />
     </item>
 
 </items>

@@ -57,6 +57,11 @@ public class GyroFragment extends ThreeAxisChartFragment {
     }
 
     @Override
+    public void onDataReceived(float[] points) {
+
+    }
+
+    @Override
     protected void setup() {
         gyroModule.setOutputDataRate(GYR_ODR);
         gyroModule.setAngularRateRange(GYR_RANGE);
