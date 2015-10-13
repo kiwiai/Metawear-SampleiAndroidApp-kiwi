@@ -1,4 +1,4 @@
-# MetaWear Android App #
+# MetaWear-Kiwi Android App #
 
 ## About ##
 This app provides examples of how to use the MetaWear API and a simple app for interacting with the board.  It uses the sample BluetoothLeGatt app on the Android developer page and the Nordic nRF Toolbox app as references.
